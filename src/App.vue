@@ -2,7 +2,7 @@
 import Footer from './components/layout/Footer.vue';
 import NavBar from './components/layout/NavBar.vue'
 import Branding from './components/layout/Branding.vue'
-import BnrCatFish from './components/layout/bnrCatFish.vue';
+import BnrCatFish from './components/layout/BnrCatFish.vue';
 </script>
 
 <template>
