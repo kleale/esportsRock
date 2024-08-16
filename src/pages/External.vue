@@ -18,17 +18,17 @@
               </span>
             </h1>
             <p class="text-base font-normal text-gray-600 dark:text-gray-300 max-w-2xl">
-              <a class="text-blue-600 hover:underline dark:text-indigo-500"
+              <a class="text-blue-600 hover:underline dark:text-lime-500"
                 href="/">https://betboom.ru/sport/EventView/11347666#events/11347666/11347666#events/11347666/11347666#events/11347666/11347666#events/11347666/11347666#events/11347666</a>
             </p>
             <p class="text-base font-normal text-gray-600 dark:text-gray-400 text-center">
               Вы можете не переходить и вернуться назад <a href="/"
-                class="text-blue-600 hover:underline dark:text-indigo-500">назад</a>
+                class="text-blue-600 hover:underline dark:text-lime-500">назад</a>
             </p>
             или
             <div class="justify-center flex text-center">
               <button class=" mt-3
-                relative flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-2 text-m font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2
+                relative flex justify-center rounded-md border border-transparent bg-lime-600 py-2 px-2 text-m font-medium text-white hover:bg-lime-700 focus:outline-none focus:ring-2 focus:ring-lime-500 focus:ring-offset-2
                 ">
                 <span class="sr-only">Пропустите меня скорее!</span>
                 Ну, пропустите меня скорее!

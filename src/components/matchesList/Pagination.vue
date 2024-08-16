@@ -1,11 +1,36 @@
 <template>
-  <nav class="isolate inline-flex -space-x-px rounded-md shadow-sm pt-2" aria-label="Pagination">
+  <nav aria-label="Page navigation example pt-2">
+    <ul class="inline-flex -space-x-px text-sm">
+      <li>
+        <a href="#" class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</a>
+      </li>
+      <li>
+        <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</a>
+      </li>
+      <li>
+        <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">2</a>
+      </li>
+      <li>
+        <a href="#" aria-current="page" class="flex items-center justify-center px-3 h-8 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white">3</a>
+      </li>
+      <li>
+        <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">4</a>
+      </li>
+      <li>
+        <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">5</a>
+      </li>
+      <li>
+        <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Next</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- <nav class="isolate inline-flex -space-x-px rounded-md shadow-sm pt-2" aria-label="Pagination">
     <a href="#" class=" inline-flex items-center rounded-full px-2 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 hover:text-white">
       <span class="sr-only">Previous</span>
       <ChevronLeftIcon class="h-5 w-5" aria-hidden="true" />
-    </a>
-    <!-- Current: "z-10 bg-indigo-50 border-indigo-500 text-indigo-600", Default: " border-gray-300 text-gray-500 hover:bg-gray-50" -->
-    <a href="#" aria-current="page" class=" z-10 inline-flex items-center bg-indigo-50 px-4 py-2 text-sm font-medium text-indigo-600 hover:text-white
+    </a> 
+    <a href="#" aria-current="page" class=" z-10 inline-flex items-center bg-lime-50 px-4 py-2 text-sm font-medium text-lime-600 hover:text-white
             rounded-full dark:bg-gray-700 dark:text-gray-400 ">1</a>
     <a href="#"
       class="rounded-full  inline-flex items-center text-center  px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 hover:dark:bg-gray-600 hover:text-white">2</a>
@@ -23,7 +48,7 @@
       <span class="sr-only">Next</span>
       <ChevronRightIcon class="h-5 w-5" aria-hidden="true" />
     </a>
-  </nav>
+  </nav> -->
 </template>
   
 <script setup>

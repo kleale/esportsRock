@@ -24,7 +24,7 @@
             </p>
             <p class="text-base font-normal text-gray-600 dark:text-gray-300">
               You may return to
-              <a href="/" class="text-blue-600 hover:underline dark:text-indigo-500">
+              <a href="/" class="text-blue-600 hover:underline dark:text-lime-500">
                 home page</a> or try using the search form.
             </p>
           </div>
@@ -35,7 +35,7 @@
             <input type="text" name="search" placeholder="What are you looking for?"
               class="w-full px-4 py-2 border-none rounded-l-md focus:outline-none focus:ring focus:ring-blue-400 dark:bg-gray-700 dark:focus:ring-blue-800" />
             <button
-              class="p-2 text-white rounded-r-md bg-blue-600 dark:bg-indigo-600 hover:bg-indigo-700 dark:hover:bg-indigo-800 focus:outline-none focus:ring focus:ring-primary-light dark:focus:ring-primary-darker">
+              class="p-2 text-white rounded-r-md bg-blue-600 dark:bg-lime-600 hover:bg-lime-700 dark:hover:bg-lime-800 focus:outline-none focus:ring focus:ring-primary-light dark:focus:ring-primary-darker">
               <span class="sr-only">Search</span>
               <svg aria-hidden="true" class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">

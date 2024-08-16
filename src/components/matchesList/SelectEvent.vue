@@ -4,7 +4,7 @@
         <div class="relative">
             <ListboxButton
                 class="relative w-full cursor-default rounded-md border border-gray-300 bg-white py-2 pl-2 pr-7 text-left shadow-sm 
-                    focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm
+                    focus:border-lime-500 focus:outline-none focus:ring-1 focus:ring-lime-500 sm:text-sm
                     dark:text-gray-200 dark:bg-gray-800 dark:border-gray-700"
                     >
                 <span v-if="selected" class="flex items-center h-4">
@@ -28,7 +28,7 @@
                     <ListboxOption as="template" v-for="person in games" :key="person.id" :value="person"
                         v-slot="{ active, selected }">
                         <li
-                            :class="[active ? 'text-white bg-indigo-600' : 'text-gray-900 dark:text-gray-400', 'relative cursor-default select-none py-2 pl-3 pr-9']">
+                            :class="[active ? 'text-white bg-lime-600' : 'text-gray-900 dark:text-gray-400', 'relative cursor-default select-none py-2 pl-3 pr-9']">
                             <div class="flex items-center">
                                 <img :src="person.avatar" alt="" class="w-4 flex-shrink-0" />
                                 <span :class="[selected ? 'font-semibold' : 'font-normal', 'ml-3 block truncate']">{{
@@ -37,7 +37,7 @@
                             </div>
 
                             <span v-if="selected"
-                                :class="[active ? 'text-white' : 'text-indigo-600', 'absolute inset-y-0 right-0 flex items-center pr-4']">
+                                :class="[active ? 'text-white' : 'text-lime-600', 'absolute inset-y-0 right-0 flex items-center pr-4']">
                                 <CheckIcon class="h-4 w-4" aria-hidden="true" />
                             </span>
                         </li>

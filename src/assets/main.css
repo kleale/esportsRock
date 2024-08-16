@@ -21,16 +21,14 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #000;
   text-decoration: inherit;
 }
 
 a:hover {
   /* color: #535bf2; */
-  color: #91b6f6;
+  color: #3c5580;
 }
-
-
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -55,6 +53,22 @@ a:hover {
   color: #ddd !important;
   fill: #ddd !important
 }
+
+
+
+
+.app-bg {
+  background-image: url("/src/assets/bg.png");
+    background-repeat: repeat-x;
+    background-color: #333537;
+}
+
+
+
+
+
+
+
 
 @layer components {
   .btn-primary {
@@ -83,3 +97,4 @@ a:hover {
     @apply text-blue-700 dark:text-white dark:bg-gray-700
   }
 }
+
