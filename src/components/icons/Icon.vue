@@ -1,9 +1,7 @@
 <template>
-    <NIcon v-bind="$props">
       <svg :width="width" :height="height" :viewBox="`0 0 ${width} ${height}`" :fill="fill" :stroke="stroke" xmlns="http://www.w3.org/2000/svg">
         <slot />
       </svg>
-    </NIcon>
   </template>
   
   <script setup lang="ts">
@@ -18,11 +16,11 @@
     },
     width: {
       type: String,
-      default: '36'
+      default: '20'
     },
     height: {
       type: String,
-      default: '36'
+      default: '20'
     },
   
   })

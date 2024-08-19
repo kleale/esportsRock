@@ -1,2 +1,5 @@
 export { default as D2Icon } from '@/components/icons/D2.vue'
 export { default as LOLIcon } from '@/components/icons/Lol.vue'
+export { default as CS2Icon } from '@/components/icons/CS2.vue'
+export { default as FortniteIcon } from '@/components/icons/Fortnite.vue'
+export { default as PubgIcon } from '@/components/icons/Pubg.vue'

@@ -11,9 +11,14 @@ module.exports = {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
+    
     extend: {
+      fontSize: {
+        xxs: '0.6rem',
+      } ,
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ['Inter var', 'Inter var', ...defaultTheme.fontFamily.sans],
+        "poppins": ['Poppins', 'sans-serif'] 
       },
     },
     colors: {

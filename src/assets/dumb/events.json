@@ -1,0 +1,101 @@
+[
+    {
+      "id": 0,
+      "name": "ESL One Birmingham 2024",
+      "game": "Dota2",
+      "price": "$100K",
+      "date": "22 apr, 2024",
+      "time": "11:34",
+      "isLive": true,
+      "eIcon": "https://escorenews.com/media/event/_120/e8564.webp",
+      "src": "https://escorenews.com/media/tournament/_300/e8564.webp"
+    },
+    {
+      "id": 1,
+      "name": "DreamLeague Season 22",
+      "game": "Dota2",
+      "price": "$1M",
+      "date": "13 feb, 2024",
+      "time": "11:34",
+      "isLive": false,
+      "eIcon": "https://escorenews.com/media/event/_120/e8562.webp",
+      "src": "https://escorenews.com/media/tournament/_300/e8562.webp"
+    },
+    {
+      "id": 2,
+      "name": "ESB Liga 2024 Tour 2",
+      "game": "Dota2",
+      "price": "$500K",
+      "date": "13 jan, 2024",
+      "time": "11:34",
+      "isLive": false,
+      "eIcon": "https://escorenews.com/media/event/_120/e8659.webp",
+      "src": "https://escorenews.com/media/tournament/_300/e8659.webp"
+    },
+    {
+      "id": 3,
+      "name": "Winline Insight Season 4",
+      "game": "Lol",
+      "price": "$10K",
+      "date": "10/11 - 24/12, 2023",
+      "time": "11:34",
+      "isLive": false,
+      "eIcon": "https://escorenews.com/media/event/_120/e8527.webp",
+      "src": "https://escorenews.com/media/tournament/_300/e8527.webp"
+    },
+    {
+      "id": 0,
+      "name": "ESL One Birmingham 2024",
+      "game": "Dota2",
+      "price": "$100K",
+      "date": "22 apr, 2024",
+      "time": "11:34",
+      "isLive": false,
+      "eIcon": "https://escorenews.com/media/event/_120/e8564.webp",
+      "src": "https://escorenews.com/media/tournament/_300/e8564.webp"
+    },
+    {
+      "id": 1,
+      "name": "DreamLeague Season 22",
+      "game": "Dota2",
+      "price": "$1M",
+      "date": "13 feb, 2024",
+      "time": "11:34",
+      "isLive": false,
+      "eIcon": "https://escorenews.com/media/event/_120/e8562.webp",
+      "src": "https://escorenews.com/media/tournament/_300/e8562.webp"
+    },
+    {
+      "id": 2,
+      "name": "ESB Liga 2024 Tour 2",
+      "game": "Dota2",
+      "price": "$500K",
+      "date": "13 jan, 2024",
+      "time": "11:34",
+      "isLive": false,
+      "eIcon": "https://escorenews.com/media/event/_120/e8659.webp",
+      "src": "https://escorenews.com/media/tournament/_300/e8659.webp"
+    },
+    {
+      "id": 3,
+      "name": "Winline Insight Season 4",
+      "game": "Lol",
+      "price": "$10K",
+      "date": "10//1 - 24/12, 2023",
+      "time": "11:34",
+      "isLive": false,
+      "eIcon": "https://escorenews.com/media/event/_120/e8527.webp",
+      "src": "https://escorenews.com/media/tournament/_300/e8527.webp"
+    },
+    {
+      "id": 3,
+      "name": "Winline Insight Season 4",
+      "game": "Lol",
+      "price": "$10K",
+      "date": "10/11 - 24/12, 2023",
+      "time": "11:34",
+      "isLive": false,
+      "eIcon": "https://escorenews.com/media/event/_120/e8527.webp",
+      "src": "https://escorenews.com/media/tournament/_300/e8527.webp"
+    } 
+]

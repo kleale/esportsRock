@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+} */
+
+
+:root{
+  font-family: 'Poppins';
+}
+
+
+/* chart  */
+.dark svg.highcharts-root .highcharts-grid path {
+  stroke: rgb(55 65 81 / var(--tw-border-opacity)) !important
+}
+
+.dark .chart svg g path {
+  stroke: rgb(55 65 81 / var(--tw-border-opacity)) !important
+}
+
+.dark .chart svg g text {
+  color: #ddd !important;
+  fill: #ddd !important
+}
+
+.app-bg {
+  background-image: url("@/assets/img/bg.png");
+    background-repeat: repeat-x;
+    background-color: #333537;
+}
+
+
+
+@layer components {
+  .btn-primary {
+    @apply py-1.5 px-2 mr-1 text-xs font-medium text-gray-900 bg-apple rounded-md border border-apple
+    dark:bg-apple dark:text-black dark:border-apple
+  }
+
+  .btn-primary:focus {
+    @apply outline-none ring-4 ring-gray-200 dark:ring-gray-700
+  }
+
+  .btn-primary:hover {
+    @apply text-blue-700 dark:text-white dark:bg-gray-700
+  }
+
+  .btn-secondary {
+    @apply py-1.5 px-2 mr-1 text-xs font-medium text-gray-900 bg-white rounded-md border border-gray-200 
+    dark:bg-gray-800 dark:text-apple dark:border-gray-600
+  }
+
+  .btn-secondary:focus {
+    @apply outline-none ring-4 ring-gray-200 dark:ring-gray-700
+  }
+
+  .btn-secondary:hover {
+    @apply text-blue-700 dark:text-white dark:bg-gray-700
+  }
+}
+
+
+/* FROM GT NEW */
+[data-theme] {
+  .defaultLayout {
+    overflow: hidden;
+
+    &:after {
+      content: "";
+      display: block;
+      width: 390px;
+      height: 590px;
+      background: #11f5cc;
+      top: 50%;
+      margin-top: 200px;
+      left: -440px;
+      position: absolute;
+      filter: blur(100px);
+      opacity: 0.2;
+    }
+
+    &:before {
+      content: "";
+      display: block;
+      width: 590px;
+      height: 390px;
+      /* background: radial-gradient(circle, rgba(158,17,245,0.13491334033613445) 0%, rgba(158,17,245,0) 41%); */
+      top: -300px;
+      right: 0;
+      position: absolute;
+      background: #11f5cc;
+      filter: blur(200px);
+      opacity: 0.3;
+    }
+  }
+}
+
+.drawer {
+  &:before {
+    content: "";
+    display: block;
+    width: 590px;
+    height: 290px;
+    background: #9e11f5;
+    bottom: 0;
+    left: 50%;
+    margin-left: -290px;
+    position: absolute;
+    filter: blur(100px);
+    opacity: 0.1;
+
+    @media only screen and (max-width: 680px) {
+      width: 490px;
+    }
+  }
+}
+
+/* theme variables override */
+[data-theme="gtTheme"] {
+  --rounded-box: 0.5rem;
+}
+
+.textBlock a{
+  text-decoration: underline;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+}
+ 
+.scroll::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 5px;
+}
+ 
+.scroll::-webkit-scrollbar-thumb {
+  background: #666666; 
+  border-radius: 5px;
+}
+
+.card{
+  --rounded-box: .2rem;
+}
+
+:root .prose{
+  --tw-prose-links: #91CDD7;
+  --tw-prose-headings: #91CDD7;
+}
+
+/* .FROM GT NEW */
