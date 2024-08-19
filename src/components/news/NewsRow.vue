@@ -1,6 +1,6 @@
 <template>
   <a href="/"
-    class="flex lg:flex-row flex-col gap-3 py-4 hover:text-primary transition border-b border-gray-300 last:border-0 hover:opacity-80 first:pt-0">
+    class="flex lg:flex-row flex-col gap-3 py-4 hover:text-primary transition border-b border-gray-500 last:border-0 hover:opacity-80 first:pt-0">
     <div v-if="data.isImg">
       <div class="relative">
         <figure class="rounded">
@@ -17,11 +17,11 @@
           <span class="font-bold opacity-75 mr-2" v-if="!data.isImg">{{ data.date }} {{ data.time }}</span> <span v-if="!data.type">&nbsp;•&nbsp;</span>
 
           <span v-if="data.type === 'ex'"
-              class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-1  rounded dark:bg-yellow-900 dark:text-yellow-300">Эксклюзив</span>
+              class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-1  rounded dark:bg-yellow-900 dark:text-yellow-300">EX</span>
           <span v-if="data.type === 'video'"
-              class="bg-lime-100 text-lime-800 text-xs font-medium mr-2 px-1   rounded dark:bg-lime-900 dark:text-lime-300">видео</span>
+              class="bg-lime-100 text-lime-800 text-xs font-medium mr-2 px-1   rounded dark:bg-lime-900 dark:text-lime-300">VID</span>
           <span v-if="data.type === 'int'"
-              class="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-1   rounded dark:bg-purple-900 dark:text-purple-300">интервью</span>
+              class="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-1   rounded dark:bg-purple-900 dark:text-purple-300">INT</span>
           
 
           <span class="opacity-75 title">{{ data.title }} {{ type }}</span> &bullet;
@@ -43,10 +43,6 @@ const props = defineProps<{
 }>();
 </script>
 <style scoped lang="scss">
-.title {
-  font-family: 'Poppins';
-}
-
 .time {
   bottom: -5px;
   padding: 5px 12px;

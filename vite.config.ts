@@ -1,21 +1,18 @@
 import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import inject from "@rollup/plugin-inject";
 import { fileURLToPath, URL } from 'url'
+import vue from '@vitejs/plugin-vue'
+import svgLoader from 'vite-svg-loader'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   base: '/esportsRock/',
   plugins: [
-    vue(),
-    inject({   // => that should be first under plugins array
-      $: 'jquery',
-      jQuery: 'jquery',
-    }),
+    vue(), svgLoader()
   ],
   resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    },
+    alias: [
+      { find: '@', replacement: fileURLToPath(new URL('./src', import.meta.url)) },
+      { find: '@assets', replacement: fileURLToPath(new URL('./src/assets', import.meta.url)) },
+    ],
   },
 })

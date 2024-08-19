@@ -30,7 +30,7 @@ const props = defineProps<{
   isCompact?: boolean;
 }>();
 
-import { Dota2, CS2, Hs, Lol, Ow, Pubg, Fortnite } from "@/assets/img/icons/";
+import { Dota2, CS2, Hs, Lol, Ow, Pubg, Fortnite } from "@/assets/icons";
 
 const games = [
   {

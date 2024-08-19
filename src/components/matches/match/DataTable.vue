@@ -143,6 +143,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+
 const players = ref([
   { id: "0", name: "kiki", hero: "Huskar", src: "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/abaddon.png", k: 17, d: 6, a: 4, net: 26345, items: 1, LHDH: "155 (2)", GPM: 432, XPM: 745, Heal: 23, DMG: 23345, BLD: 4231 },
   { id: "0", name: "Denz", hero: "Enchatress", src: "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png", k: 17, d: 6, a: 4, net: 23432, items: 1, LHDH: "155 (2)", GPM: 432, XPM: 745, Heal: 23, DMG: 23345, BLD: 4231 },

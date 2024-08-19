@@ -1,5 +1,5 @@
 <template>
-    <aside id="default-sidebar" class="W transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidenav">
+    <aside id="default-sidebar" class="W transition-transform -translate-x-full sm:translate-x-0 hidden md:flex" aria-label="Sidenav">
         <div class="LeftSide overflow-y-auto px-3 h-ful">
             <!-- header -->
             <LeftSideHeader>Navigate</LeftSideHeader>

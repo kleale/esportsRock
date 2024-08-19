@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import {IconCirclecheck, IconCircledashed, IconEye} from "@/assets/img/icons/";
+import {IconCirclecheck, IconCircledashed, IconEye} from "@/assets/icons";
 
 interface IStream {
   id: number;

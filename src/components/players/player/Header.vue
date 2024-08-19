@@ -80,7 +80,7 @@
 </template>
 
 <script setup lang="ts">
-import { Dota2, CS2, Hs, Lol, Ow, Pubg, Fortnite, IconInfo } from "@/assets/img/icons/";
+import { Dota2, CS2, Hs, Lol, Ow, Pubg, Fortnite, IconInfo } from "@/assets/icons";
 
 const players = [
   { id: 0, nik: "TECHIES", name: "Vitaliy Vorotnikov", ava: "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg", role: "", hero: "Copy", heroImg: "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/arc_warden.png" },

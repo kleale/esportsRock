@@ -16,8 +16,8 @@
         </a>
 
         <div class="flex flex-col justify-center items-center h-14 w-[45px]">
-          <div class="badge badge-error badge-outline cursor-pointer" v-if="match.isLive && !isScore"
-            @click="onShowScore">score</div>
+          <div class="badge badge-error badge-xs badge-outline cursor-pointer" v-if="match.isLive && !isScore"
+            @click="onShowScore">sc</div>
           <div class=" font-bold text-red-400" v-if="match.isLive && isScore" @click="onShowScore">{{ match.score }}
           </div>
           <div class=" font-bold" v-if="!match.isLive && !isScore">{{ match.score }}</div>
@@ -65,8 +65,6 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { ClockIcon } from "@heroicons/vue/24/outline";
-import { Dota2, CS2, Hs, Lol, Ow, Pubg, Fortnite } from "../../assets/icons";
 import { D2Icon, LOLIcon, CS2Icon, FortniteIcon, PubgIcon } from "../icons";
 
 const props = defineProps<{
@@ -116,6 +114,6 @@ const getIcon = (game: string) => {
 }
 
 .isLive {
-  background-color: #bcf079;
+  background-color: #daff84;
 }
 </style>

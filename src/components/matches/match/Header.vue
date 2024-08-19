@@ -35,16 +35,11 @@
 </template>
 
 <script setup lang="ts">
-import { Dota2, CS2, Hs, Lol, Ow, Pubg, Fortnite } from "@/assets/img/icons/";
-const matches = [{ id: 0, t1: "Astralis", t1Icon: "/img/none/teamNoLogo.svg", t2: "The Mongolz", t2Icon: "https://escorenews.com/media/logo/_60/t5270.webp", game: Dota2, gameId: "1", score: "1:0", date: "Oct 14", time: "11:34", isLive: true, map: 1, event_id: 1, eventName: "ESEA Open Season 47", eIcon: "/img/none/tourNoLogo.svg", type: "BO3" }];
 
-const players = [
-  { id: 0, nik: "TECHIES", name: "Vitaliy Vorotnikov", ava: "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg", role: "", hero: "Copy", heroImg: "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/arc_warden.png" },
-  { id: 1, nik: "Banana WannaCoffe", name: "Vitaliy Vorotnikov", ava: "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg", role: "", hero: "LINA", heroImg: "https://escorenews.com/media/game/hero/582/_256/25.png" },
-  { id: 2, nik: "Denz", name: "Vitaliy Vorotnikov", ava: "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg", role: "", hero: "LINA", heroImg: "https://escorenews.com/media/game/hero/582/_256/25.png" },
-  { id: 3, nik: "Amputator3000", name: "Vitaliy Vorotnikov", ava: "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg", role: "", hero: "LINA", heroImg: "https://escorenews.com/media/game/hero/582/_256/25.png" },
-  { id: 4, nik: "VinDisel", name: "Vitaliy Vorotnikov", ava: "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg", role: "", hero: "LINA", heroImg: "https://escorenews.com/media/game/hero/582/_256/25.png" },
-];
+import matches from "../../../assets/dumb/matches.json"
+import players from "../../../assets/dumb/players.json"
+
+
 </script>
 
 <style lang="scss" scoped>

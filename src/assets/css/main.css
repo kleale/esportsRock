@@ -15,7 +15,16 @@
 
 :root{
   font-family: 'Poppins';
+}  
+
+html.EN {
+  font-family: 'Poppins';
 }
+
+html.RU {
+  font-family: 'Inter var';
+}
+
 
 
 /* chart  */
@@ -42,7 +51,7 @@
 
 @layer components {
   .btn-primary {
-    @apply py-1.5 px-2 mr-1 text-xs font-medium text-gray-900 bg-apple rounded-md border border-apple
+    @apply py-1.5 px-4 text-xs leading-relaxed font-medium text-gray-900 bg-lime-400 rounded-md border border-lime-400
     dark:bg-apple dark:text-black dark:border-apple
   }
 
@@ -51,7 +60,7 @@
   }
 
   .btn-primary:hover {
-    @apply text-blue-700 dark:text-white dark:bg-gray-700
+    @apply  dark:bg-lime-700
   }
 
   .btn-secondary {
@@ -64,7 +73,7 @@
   }
 
   .btn-secondary:hover {
-    @apply text-blue-700 dark:text-white dark:bg-gray-700
+    @apply  dark:text-white dark:bg-gray-700
   }
 }
 
@@ -154,8 +163,8 @@
 }
 
 :root .prose{
-  --tw-prose-links: #91CDD7;
-  --tw-prose-headings: #91CDD7;
+  --tw-prose-links: #31462f;
+  --tw-prose-headings: #202020;
 }
 
 /* .FROM GT NEW */

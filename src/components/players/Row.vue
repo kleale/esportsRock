@@ -33,6 +33,6 @@ const props = defineProps<{
   background-color: #23232b;
 }
 .isLive {
-  background-color: #172429;
+  background-color: #daff84;
 }
 </style>

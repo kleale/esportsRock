@@ -82,6 +82,6 @@ const props = defineProps<{
   background-color: #23232b;
 }
 .isLive{
-  background-color: #bcf079;
+  background-color: #daff84;
 }
 </style>

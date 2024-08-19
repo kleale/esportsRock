@@ -26,6 +26,8 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
+
 const isScore = ref(false);
 const onShowScore = () => {
   isScore.value = !isScore.value;

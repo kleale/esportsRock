@@ -33,7 +33,7 @@ import type { EventsCard } from '#build/components';
   </div> -->
 </template>
 <script setup lang="ts">
-import { Dota2, CS2, Hs, Lol, Ow, Pubg, Fortnite } from "@/assets/img/icons/";
+import { Dota2, CS2, Hs, Lol, Ow, Pubg, Fortnite } from "@/assets/icons";
 
 const events = [
   {

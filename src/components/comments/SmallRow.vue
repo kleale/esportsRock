@@ -10,6 +10,8 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
+
 const isScore = ref(false);
 const onShowScore = () => {
   isScore.value = !isScore.value;
@@ -36,6 +38,6 @@ interface IComment {
   background-color: #23232b;
 }
 .isLive {
-  background-color: #172429;
+  background-color: #daff84;
 }
 </style>

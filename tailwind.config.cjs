@@ -7,9 +7,11 @@ module.exports = {
   darkMode: 'class',
   content: [
     "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
-    "./node_modules/flowbite/**/*.js"
+    "./src/**/*.{vue,js,ts,jsx,tsx}"
   ],
+  daisyui: {
+    themes: ["emerald", "dark"],
+  },
   theme: {
     
     extend: {
@@ -20,25 +22,25 @@ module.exports = {
         sans: ['Inter var', 'Inter var', ...defaultTheme.fontFamily.sans],
         "poppins": ['Poppins', 'sans-serif'] 
       },
+      colors: {
+        'apple': '#98AA28',
+        'odd': '#212D3D',
+        lime: colors.lime,
+        //   transparent: 'transparent',
+        //   current: 'currentColor',
+        //black: colors.black,
+        //   white: colors.white,
+        //gray: colors.gray,
+        //   emerald: colors.emerald,
+        //   yellow: colors.yellow,
+        //   sky: colors.sky,
+      }
     },
-    colors: {
-      'apple': '#98AA28',
-      'odd': '#212D3D',
-      lime: colors.lime,
-    //   transparent: 'transparent',
-    //   current: 'currentColor',
-    //   black: colors.black,
-    //   white: colors.white,
-    //   gray: colors.gray,
-    //   emerald: colors.emerald,
-    //   yellow: colors.yellow,
-    //   sky: colors.sky,
-    }
+   
   },
 
   plugins: [
-    // ...
-    require('@tailwindcss/forms'),
-    require('flowbite/plugin')
+    require("@tailwindcss/typography"),
+    require('daisyui'),
   ],
 }

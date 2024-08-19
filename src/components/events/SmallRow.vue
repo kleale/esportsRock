@@ -1,14 +1,14 @@
 <template>
   <div :class="event.isLive ? 'isLive' : ''"
-    class="flex border-b border-b-slate-800 odd:bg-slate-800 odd:bg-opacity-10 last:border-0 hover:bg-opacity-10 hover:bg-gray-700">
-    <a href="#" class="flex grow items-center gap-1 h-10 text-primary">
+    class="flex border-b odd:bg-gray-100 last:border-0 hover:bg-gray-200">
+    <a href="#" class="flex grow items-center gap-1 h-10">
       <div class="flex-1 flex items-start gap-1 pl-2">
         <div class="text-xs hover:underline line-clamp-1">
            {{ event.name }}
         </div>
         <span v-if="event.isLive" class="bg-red-100 text-red-800 text-xs font-medium px-1 rounded dark:bg-red-900 dark:text-red-300">live</span>
       </div>
-      <div class="text-xs text-right text-secondary  line-clamp-2">
+      <div class="text-xs text-right line-clamp-2">
         {{ event.price }} <br>
         {{ event.date }}
       </div>
@@ -51,6 +51,6 @@ const props = defineProps<{
 }
 
 .isLive {
-  background-color: #f0e3bf;
+  background-color: #daff84;
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
-    <ul class="space-y-2">
+    <ul class="menu space-y-2">
         <li>
             <a href="#/game"
-                class="flex items-center p-2 text-sm font-normal text-white rounded-lg  hover:bg-gray-100  group">
+                class="flex items-center p-2 text-sm font-normal text-white rounded-lg  hover:bg-gray-100 hover:text-gray-900 group">
                 <svg xmlns="http://www.w3.org/2000/svg"
                     class="w-6 h-6 text-gray-400 transition duration-75 dark:text-gray-400 group-hover:text-black dark:group-hover:text-black"
                     fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -14,7 +14,7 @@
         </li>
         <li>
             <a href="#/news"
-                class="flex items-center p-2 text-sm font-normal text-white rounded-lg  hover:bg-gray-100  group">
+                class="flex items-center p-2 text-sm font-normal text-white rounded-lg  hover:bg-gray-100 hover:text-gray-900 group">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor"
                     class="w-6 h-6 text-gray-400 transition duration-75 dark:text-gray-400 group-hover:text-black dark:group-hover:text-black">
@@ -26,7 +26,7 @@
         </li>
         <li>
             <a href="#/bets"
-                class="flex items-center p-2 text-sm font-normal text-white rounded-lg  hover:bg-gray-100  group">
+                class="flex items-center p-2 text-sm font-normal text-white rounded-lg  hover:bg-gray-100 hover:text-gray-900 group">
 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor"
@@ -36,13 +36,13 @@
                 </svg>
                 <span class="flex-1 ml-3 whitespace-nowrap">Bets</span>
                 <span
-                    class="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">BETBOOM</span>
+                    class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">BETBOOM</span>
             </a>
         </li>
 
         <li>
             <a href="#/matches"
-                class="flex items-center p-2 text-sm font-normal text-white rounded-lg  hover:bg-gray-100  group">
+                class="flex items-center p-2 text-sm font-normal text-white rounded-lg  hover:bg-gray-100 hover:text-gray-900 group">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor"
                     class="flex-shrink-0 w-6 h-6 text-gray-400 transition duration-75 group-hover:text-black dark:text-gray-400 dark:group-hover:text-black">
@@ -51,123 +51,67 @@
                 </svg>
                 <span class="flex-1 ml-3 whitespace-nowrap">Matches</span>
                 <span
-                    class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Live</span>
+                    class="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Live</span>
             </a>
         </li>
         <li>
-            <button type="button"
-                class="flex items-center p-2 w-full text-sm font-normal text-white rounded-lg transition duration-75 group hover:bg-gray-100  hover:text-black "
-                aria-controls="dropdown-tours" data-collapse-toggle="dropdown-tours">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor"
-                    class="flex-shrink-0 w-6 h-6 text-gray-400 transition duration-75 group-hover:text-black dark:text-gray-400 dark:group-hover:text-black">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M16.5 18.75h-9m9 0a3 3 0 0 1 3 3h-15a3 3 0 0 1 3-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 0 1-.982-3.172M9.497 14.25a7.454 7.454 0 0 0 .981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 0 0 7.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 0 0 2.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 0 1 2.916.52 6.003 6.003 0 0 1-5.395 4.972m0 0a6.726 6.726 0 0 1-2.749 1.35m0 0a6.772 6.772 0 0 1-3.044 0" />
-                </svg>
-                <span class="flex-1 ml-3 text-left whitespace-nowrap">Tournaments</span>
-                <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clip-rule="evenodd"></path>
-                </svg>
-            </button>
-            <ul id="dropdown-tours" class="hidden py-2 space-y-2">
-                <li>
-                    <a href="#/tours"
-                        class="flex items-center p-2 pl-11 w-full text-sm font-normal text-white rounded-lg transition duration-75 group hover:bg-gray-100  ">Upcoming
-                        Tournaments</a>
-                </li>
-                <li>
-                    <a href="#/tours"
-                        class="flex items-center p-2 pl-11 w-full text-sm font-normal text-white rounded-lg transition duration-75 group hover:bg-gray-100  ">Last
-                        Tournaments</a>
-                </li>
-                <li>
-                    <a href="#/tours"
-                        class="flex items-center p-2 pl-11 w-full text-sm font-normal text-white rounded-lg transition duration-75 group hover:bg-gray-100  ">Most
-                        waiting Tournaments
-                    </a>
-                </li>
-            </ul>
+            <details open>
+                <summary
+                    class="p-2 w-full text-sm font-normal text-white rounded-lg transition duration-75 hover:bg-gray-100  hover:text-black ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor"
+                        class="flex-shrink-0 w-6 h-6 text-gray-400 transition duration-75 group-hover:text-black dark:text-gray-400 dark:group-hover:text-black">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M16.5 18.75h-9m9 0a3 3 0 0 1 3 3h-15a3 3 0 0 1 3-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 0 1-.982-3.172M9.497 14.25a7.454 7.454 0 0 0 .981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 0 0 7.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 0 0 2.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 0 1 2.916.52 6.003 6.003 0 0 1-5.395 4.972m0 0a6.726 6.726 0 0 1-2.749 1.35m0 0a6.772 6.772 0 0 1-3.044 0" />
+                    </svg>
+                    <span class="flex-1 ml-3 whitespace-nowrap">
+                        Tournaments
+                    </span>
+                </summary>
+                <ul>
+                    <li>
+                        <a href="#/tours"
+                            class="flex items-center p-2 pl-11 w-full text-sm font-normal text-white rounded-lg transition duration-75 hover:text-gray-900 group hover:bg-gray-100  ">Upcoming
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#/tours"
+                            class="flex items-center p-2 pl-11 w-full text-sm font-normal text-white rounded-lg transition duration-75 hover:text-gray-900 group hover:bg-gray-100  ">Last
+                        </a>
+                    </li>
+                </ul>
+            </details>
         </li>
         <li>
-            <button type="button"
-                class="flex items-center p-2 w-full text-sm font-normal text-white rounded-lg transition duration-75 group hover:bg-gray-100  hover:text-black "
-                aria-controls="dropdown-teams" data-collapse-toggle="dropdown-teams">
-
+            <a href="#/teams"
+                class="flex items-center p-2 text-sm font-normal text-white rounded-lg  hover:bg-gray-100 hover:text-gray-900 group">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor"
                     class="flex-shrink-0 w-6 h-6 text-gray-400 transition duration-75 group-hover:text-black dark:text-gray-400 dark:group-hover:text-black">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
                 </svg>
-
-                <span class="flex-1 ml-3 text-left whitespace-nowrap">Teams</span>
-                <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clip-rule="evenodd"></path>
-                </svg>
-            </button>
-            <ul id="dropdown-teams" class="hidden py-2 space-y-2">
-                <li>
-                    <a href="#/teams"
-                        class="flex items-center p-2 pl-11 w-full text-sm font-normal text-white rounded-lg transition duration-75 group hover:bg-gray-100  ">Teams
-                        list</a>
-                </li>
-                <li>
-                    <a href="#/teams"
-                        class="flex items-center p-2 pl-11 w-full text-sm font-normal text-white rounded-lg transition duration-75 group hover:bg-gray-100  ">Compare</a>
-                </li>
-                <li>
-                    <a href="#/teams"
-                        class="flex items-center p-2 pl-11 w-full text-sm font-normal text-white rounded-lg transition duration-75 group hover:bg-gray-100  ">Hall
-                        of Fame</a>
-                </li>
-            </ul>
+                <span class="ml-3">Teams</span>
+            </a>
         </li>
         <li>
-            <button type="button"
-                class="flex items-center p-2 w-full text-sm font-normal text-white rounded-lg transition duration-75 group hover:bg-gray-100  hover:text-black "
-                aria-controls="dropdown-players" data-collapse-toggle="dropdown-players">
+            <a href="#/teams"
+                class="flex items-center p-2 text-sm font-normal text-white rounded-lg  hover:bg-gray-100 hover:text-gray-900 group">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor"
                     class="flex-shrink-0 w-6 h-6 text-gray-400 transition duration-75 group-hover:text-black dark:text-gray-400 dark:group-hover:text-black">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
                 </svg>
-                <span class="flex-1 ml-3 text-left whitespace-nowrap">Players</span>
-                <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clip-rule="evenodd"></path>
-                </svg>
-            </button>
-            <ul id="dropdown-players" class="hidden py-2 space-y-2">
-                <li>
-                    <a href="#/players"
-                        class="flex items-center p-2 pl-11 w-full text-sm font-normal text-white rounded-lg transition duration-75 group hover:bg-gray-100  ">Players
-                        list</a>
-                </li>
-                <li>
-                    <a href="#/players"
-                        class="flex items-center p-2 pl-11 w-full text-sm font-normal text-white rounded-lg transition duration-75 group hover:bg-gray-100  ">Compare</a>
-                </li>
-                <li>
-                    <a href="#/players"
-                        class="flex items-center p-2 pl-11 w-full text-sm font-normal text-white rounded-lg transition duration-75 group hover:bg-gray-100  ">Hall
-                        of Fame</a>
-                </li>
-            </ul>
+                <span class="ml-3">Players</span>
+            </a>
         </li>
     </ul>
-    <ul class="pt-5 mt-5 space-y-2 border-t border-gray-500 ">
+
+    <ul class="menu pt-5 mt-5 space-y-2 border-t border-gray-500 ">
         <li>
             <a href="#"
-                class="flex items-center p-2 text-sm font-normal text-white rounded-lg transition duration-75 hover:bg-gray-100   group">
+                class="flex items-center p-2 text-sm font-normal text-white rounded-lg transition duration-75 hover:bg-gray-100  hover:text-gray-900 group">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor"
                     class="flex-shrink-0 w-6 h-6 text-gray-400 transition duration-75 dark:text-gray-400 group-hover:text-black dark:group-hover:text-black">
@@ -179,7 +123,7 @@
         </li>
         <li>
             <a href="#"
-                class="flex items-center p-2 text-sm font-normal text-white rounded-lg transition duration-75 hover:bg-gray-100   group">
+                class="flex items-center p-2 text-sm font-normal text-white rounded-lg transition duration-75 hover:bg-gray-100  hover:text-gray-900 group">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor"
                     class="flex-shrink-0 w-6 h-6 text-gray-400 transition duration-75 dark:text-gray-400 group-hover:text-black dark:group-hover:text-black">
