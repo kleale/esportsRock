@@ -1,6 +1,6 @@
 <template>
   <a href="/"
-    class="flex lg:flex-row flex-col gap-3 py-4 hover:text-primary transition border-b border-gray-500 last:border-0 hover:opacity-80 first:pt-0">
+    class="flex lg:flex-row flex-col gap-3 py-4 text-black transition border-b border-gray-300 last:border-0 hover:opacity-80 first:pt-0">
     <div v-if="data.isImg">
       <div class="relative">
         <figure class="rounded">
@@ -13,26 +13,19 @@
     </div>
     <div class="flex flex-row flex-1 grow">
       <div :class="'flex flex-col flex-1 grow' && type == 'dark' && 'text-white'">
-        <h3 class="font-light text-xs leading-relaxed">
-          <span class="font-bold opacity-75 mr-2" v-if="!data.isImg">{{ data.date }} {{ data.time }}</span> <span v-if="!data.type">&nbsp;•&nbsp;</span>
-
+        <h3 class="text-xs leading-relaxed">
+          <span class="font-bold opacity-75 mr-2" v-if="!data.isImg">{{ data.date }} {{ data.time }}</span> <span
+            v-if="!data.type">&nbsp;•&nbsp;</span>
           <span v-if="data.type === 'ex'"
-              class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-1  rounded dark:bg-yellow-900 dark:text-yellow-300">EX</span>
+            class="bg-yellow-100 text-yellow-800 text-xs font-medium  px-1  rounded dark:bg-yellow-900 dark:text-yellow-300">EX</span>
           <span v-if="data.type === 'video'"
-              class="bg-lime-100 text-lime-800 text-xs font-medium mr-2 px-1   rounded dark:bg-lime-900 dark:text-lime-300">VID</span>
+            class="bg-lime-100 text-lime-800 text-xs font-medium  px-1   rounded dark:bg-lime-900 dark:text-lime-300">VID</span>
           <span v-if="data.type === 'int'"
-              class="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-1   rounded dark:bg-purple-900 dark:text-purple-300">INT</span>
-          
-
-          <span class="opacity-75 title">{{ data.title }} {{ type }}</span> &bullet;
-          <span class="uppercase text-[#9BD100]">{{ data.game }}</span>
+            class="bg-purple-100 text-purple-800 text-xs font-medium  px-1   rounded dark:bg-purple-900 dark:text-purple-300">INT</span>
+          <span class="title mr-1 ml-2">{{ data.title }} {{ type }}</span> &bullet;
+          <span class="uppercase text-lime-500 ml-1">{{ data.game }}</span>
         </h3>
-        <!-- <p>Click the button to listen on Spotiwhy app.</p> -->
-        
       </div>
-      <!-- <div class="flex items-end content-end text-base-content">
-        <component :is="data.game" :fontControlled="false" class="w-4" />
-      </div> -->
     </div>
   </a>
 </template>

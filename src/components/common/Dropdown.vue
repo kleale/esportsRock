@@ -6,7 +6,8 @@
     cursor-pointer
     focus:outline-none 
     rounded 
-    text-sm 
+    text-xs 
+    font-normal
     px-2 
     py-1.5 
     items-center">

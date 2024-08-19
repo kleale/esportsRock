@@ -16,7 +16,7 @@
                                 <span>January 09, 16:31</span>
                             </div>
                             <span
-                                class="uppercase bg-[#9BD100] text-xs font-semibold leading-relaxed rounded-md px-2 text-black">Dota2</span>
+                                class="uppercase bg-lime-400 text-xs font-semibold leading-relaxed rounded-md px-2 text-black">Dota2</span>
                         </div>
 
                         <h1>Pure~ reveals his is "not in CIS" amidst rumors of him joining Tundra</h1>

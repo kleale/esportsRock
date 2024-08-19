@@ -272,9 +272,11 @@
                     </ul>
                 </div>
 
-
-                <button v-else type="submit" @click="() => login()"
-                    class="group ml-2 relative flex w-full justify-center rounded-md border border-transparent bg-lime-500 py-1 px-3 text-sm text-black hover:bg-lime-400 focus:outline-none ">
+                <button 
+                    v-else 
+                    type="submit" 
+                    @click="() => login()"
+                    class="btn btn-sm btn-primary ml-2 text-sm">
                     Log in
                 </button>
             </div>
@@ -307,7 +309,6 @@ const navigation = [
 const isAuth = ref(false);
 const login = () => {
     isAuth.value = !isAuth.value
-    console.log(isAuth)
 }
 
 const lang = ref("EN");

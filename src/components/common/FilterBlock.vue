@@ -9,7 +9,7 @@
             <Dropdown :drop="drop3" />
             <Dropdown :drop="drop4" />
             <div class="flex justify-end">
-                <button class="btn btn-sm btn-primary">Button</button>
+                <button class="btn btn-sm btn-primary">Search</button>
             </div>
         </div>
         
