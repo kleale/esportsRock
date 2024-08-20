@@ -3,13 +3,13 @@
     <div class="flex w-full justify-between items-center border-b border-slate-800 py-2 px-2 bg-block">
       <div class="flex items-center gap-3">
         <a href="#" class="flex h-7 w-7">
-          <img class="h-7 w-7" src="/img/none/teamNoLogo.svg" alt="teamName" />
+          <img class="h-7 w-7" src="../assets/none/teamNoLogo.svg" alt="teamName" />
         </a>
         <a href="#" class="flex text-right text-base font-bold text-red-400 leading-4"> Moon Team </a>
       </div>
       <div class="flex items-center flex-row-reverse gap-3">
         <a href="#" class="flex h-7 w-7">
-          <img class="h-7 w-7" src="/img/none/teamNoLogo.svg" alt="teamName" />
+          <img class="h-7 w-7" src="../assets/none/teamNoLogo.svg" alt="teamName" />
         </a>
         <a href="#" class="flex text-right text-base text-accent leading-4 font-bold"> Dota Geniuses </a>
       </div>
@@ -17,7 +17,7 @@
     <!-- -->
     <div v-for="item in items" :key="item.id" class="flex w-full justify-between items-center border-b border-slate-800 py-2 px-2 last:border-0">
       <div class="flex items-center gap-2 py-0.5 relative">
-        <img class="w-7 shadow-md" src="/img/none/heroNoLogo.svg" alt="heroName" />
+        <img class="w-7 shadow-md" src="../assets/none/heroNoLogo.svg" alt="heroName" />
         <div class="flex w-2 h-2 items-center bg-accent rounded-full"></div>
         <a href="#" class="flex text-sm leading-none">{{ item.name1 }}</a>
         <div class="border border-accent text-[9px] px-0.5 rounded-sm text-accent font-bold leading-3 h-[14px]">3</div>

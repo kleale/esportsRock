@@ -1,5 +1,5 @@
 <template>
-   
+   Streams
 </template>
 
 

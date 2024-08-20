@@ -7,10 +7,9 @@
         <div>{{ match.time }}</div>
       </div>
 
-
       <div class="flex grow relative">
 
-        <a href="#" class="flex grow flex-1 items-center gap-2 flex-row-reverse ">
+        <a href="#/match" class="flex grow flex-1 items-center gap-2 flex-row-reverse ">
           <span class="h-5 w-[20px] items-center"> <img class="h-5" :src="match.t1Icon" :alt="match.t1" /></span>
           <span class="flex text-ellipsis overflow-hidden w-fit text-right"> {{ match.t1 }}</span>
         </a>
@@ -24,10 +23,10 @@
         </div>
 
         <div class="flex grow flex-1 items-center flex-row gap-2 text-left">
-          <a href="#" class="flex">
+          <a href="#/match" class="flex">
             <img class="h-5 max-w-full" :src="match.t2Icon" :alt="match.t2" />
           </a>
-          <a href="#" class="flex text-ellipsis overflow-hidden w-fit"> {{ match.t2 }} </a>
+          <a href="#/match" class="flex text-ellipsis overflow-hidden w-fit"> {{ match.t2 }} </a>
 
         </div>
       </div>

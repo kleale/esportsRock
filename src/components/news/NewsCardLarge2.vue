@@ -1,5 +1,5 @@
 <template>
-  <a href="/" class=" hover:text-primary relative transition image-full bg-base-100">
+  <a href="#/newspage" class=" hover:text-primary relative transition image-full bg-base-100">
     <figure><img :src="data.src" alt="news" class="opacity-25" style="width: 100%" /></figure>
     <div class="justify-end p-6 pb-0 absolute bottom-0">
       <div class="flex flex-col gap-2">

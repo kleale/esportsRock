@@ -25,6 +25,7 @@ module.exports = {
       colors: {
         'apple': '#98AA28',
         'odd': '#212D3D',
+        'primary': "#333",
         lime: colors.lime,
         //   transparent: 'transparent',
         //   current: 'currentColor',

@@ -1,6 +1,6 @@
 <template>
   <div class="transition flex flex-row gap-6 mb-6">
-    <a href="#" class="lg:w-48 w-36 transition hover:opacity-80">
+    <a href="#/newspage" class="lg:w-48 w-36 transition hover:opacity-80">
       <picture class="figure flex justify-center bg-base-100 shadow-xl overflow-hidden rounded border border-slate-700">
         <img :src="data.src" alt="news" style="width: 100%" class="rounded" />
       </picture>

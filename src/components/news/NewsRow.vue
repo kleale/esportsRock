@@ -1,5 +1,5 @@
 <template>
-  <a href="/"
+  <a href="#/newspage"
     class="flex lg:flex-row flex-col gap-3 py-4 text-black transition border-b border-gray-300 last:border-0 hover:opacity-80 first:pt-0">
     <div v-if="data.isImg">
       <div class="relative">

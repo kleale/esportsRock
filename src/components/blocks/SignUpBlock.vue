@@ -5,7 +5,7 @@
         in eSports!</h2>
       <div class="flex flex-row items-center">
         <button
-          class="btn btn-lg rounded-full text-2xl px-5 py-2 text-[#9BD100] border border-[#9BD100] hover:border-[#BDFF00] hover:text-[#BDFF00] btn-outline hover:bg-primary hover:border-primary">Sign&nbsp;up</button>
+          class="btn btn-lg rounded-full text-2xl px-5 py-2 text-[#9BD100] border border-[#9BD100] hover:text-[#BDFF00] btn-outline hover:bg-primary hover:border-primary">Sign&nbsp;up</button>
       </div>
     </div>
     <p>Dota 2, released in 2011, quickly became a worthy successor to DotA AllStars, WarCraft III custom map, not just

@@ -6,7 +6,7 @@
             <LeftSideMenu />
             <LeftSideHeader>News</LeftSideHeader>
 
-            <template v-for="(item, index) in news">
+            <template v-for="(item, index) in news.slice(0,5)">
                 <NewsRow type="dark" :data="item" />
             </template>
 

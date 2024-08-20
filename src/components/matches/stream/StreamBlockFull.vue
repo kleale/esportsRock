@@ -1,13 +1,13 @@
 import type { MatchesStreamPlayer } from '#build/components'; import type { MatchesStreamItem } from '#build/components';
 <template>
-  <div class="grid grid-cols-7 gap-1 pb-2">
-    <div class="col-span-12 md:col-span-5">
-      <MatchesStreamPlayer />
+  <div class="grid grid-cols-12 gap-5 pb-2">
+    <div class="col-span-12 md:col-span-8 bg-gray-100 rounded">
+      <Player />
     </div>
-    <div class="col-span-12 md:col-span-2 gap-5">
+    <div class="col-span-12 md:col-span-4 gap-5">
       <div class="flex flex-col gap-2 max-h-[400px] overflow-y-auto scroll pl-2">
         <template v-for="(stream, index) in streams">
-          <MatchesStreamItem :stream="stream" />
+          <StreamItem :stream="stream" />
         </template>
       </div>
     </div>
@@ -16,6 +16,8 @@ import type { MatchesStreamPlayer } from '#build/components'; import type { Matc
 
 <script setup lang="ts">
 import { Dota2, CS2, Hs, Lol, Ow, Pubg, Fortnite } from "@/assets/icons";
+import Player from "./Player.vue";
+import StreamItem from "./StreamItem.vue";
 
 const streams = [
   { id: 0, isActive: true, streamSrc: "https://static-cdn.jtvnw.net/jtv_user_pictures/86203c57-555c-40be-b412-6bbba5a16027-profile_image-70x70.png", name: "ENG Talon vs Mansion Army Geniuses I Summer Tour", views: "11923", t1: "Astralis", t1Icon: "https://escorenews.com/media/logo/_60/t7169.webp", t2: "The Mongolz", t2Icon: "https://escorenews.com/media/logo/_60/t5270.webp", game: Dota2, gameId: "1", score: "1:0", date: "Oct 14", time: "11:34", isLive: true, map: 1, event_id: 1, eventName: "ESEA Open Season 47", eIcon: "https://escorenews.com/media/event/_60/e8382.webp", type: "BO3" },

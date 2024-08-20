@@ -1,6 +1,6 @@
 <template>
-  <div class="">
-    <a href="#" class="transition shadow-xl hover:opacity-80">
+  <div class="newsCard">
+    <a href="#/newspage" class="transition shadow-xl hover:opacity-80">
       <img :src="data.src" alt="news" style="width: 100%" class="rounded" />
     </a>
     <div class="py-5 px-4">

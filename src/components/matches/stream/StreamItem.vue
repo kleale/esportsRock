@@ -1,24 +1,25 @@
 <template>
-  <div :class="stream.isActive ? 'isActive bg-[#172429] shadow-cyan-950' : ''" 
-    class="flex flex-row items-center gap-3 bg-neutral rounded cursor-pointer transition-all shadow hover:bg-[#172429] hover:shadow-slate-950">
+  <div :class="stream.isActive ? 'isActive bg-lime-400 ' : ''" 
+    class="flex flex-row items-center gap-3 bg-gray-100 rounded cursor-pointer transition-all shadow hover:bg-lime-500">
     <picture class="rounded relative overflow-hidden h-12 min-w-fit">
-      <span class="absolute bg-black text-[10px] text-primary text-center rounded-full block leading-3 h-4 w-4 top-1 left-1">en</span>
+      <span class="absolute bg-gray-900 text-[10px] text-white text-center rounded-full block leading-relaxed h-4 w-4 top-1 left-1">en</span>
       <source :srcset="stream.streamSrc" type="image/webp" />
       <img class="h-12 w-12 rounded" loading="lazy" :src="stream.streamSrc" alt="aferaTV" />
     </picture>
-    <div class="flex flex-col flex-1 gap-1 content-center text-xs text-white">
+    <div class="flex flex-col flex-1 gap-1 content-center text-xs leading-tight">
       <div class="line-clamp-1">{{ stream.name }}</div>
-      <div class="flex gap-1 items-center content-center"><IconEye class="text-primary" filled /> {{ stream.views }}</div>
+      <div class="flex gap-1 items-center content-center">
+        <EyeIcon class="h-4" /> {{ stream.views }}</div>
     </div>
-    <div class="flex flex-col content-center text-base-content text-lg pr-2">
-      <!-- <IconCircledashed class="text-base-content text-lg" filled /> -->
+    <!-- <div class="flex flex-col content-center text-base-content text-lg pr-2">
       <component :is="stream.isActive ? IconCirclecheck : IconCircledashed" :fontControlled="false" filled class="w-6" :class="stream.isActive ? 'text-primary' : ''"/>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script setup lang="ts">
 import {IconCirclecheck, IconCircledashed, IconEye} from "@/assets/icons";
+import { EyeIcon } from "@heroicons/vue/24/outline";
 
 interface IStream {
   id: number;

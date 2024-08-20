@@ -24,7 +24,7 @@
             <div class="grow flex-1 flex justify-end items-end gap-1 md:gap-3 flex-col md:flex-row-reverse md:items-center md:justify-start">
               <div class="flex gap-2 items-center">
                 <a href="#" class="flex h-6 w-6">
-                  <img class="h-6 w-6" src="/img/none/teamNoLogo.svg" alt="teamName" />
+                  <img class="h-6 w-6" src="../assets/none/teamNoLogo.svg" alt="teamName" />
                 </a>
               </div>
               <a href="#" class="flex text-right text-primary text-sm leading-4">
@@ -36,7 +36,7 @@
             </div>
             <div class="flex grow flex-1 content-center md:items-center text-left gap-1 md:gap-3 flex-col md:flex-row">
               <a href="#" class="flex h-6 w-6">
-                <img class="h-6 w-6" src="/img/none/teamNoLogo.svg" alt="teamName" />
+                <img class="h-6 w-6" src="../assets/none/teamNoLogo.svg" alt="teamName" />
               </a>
               <a href="#" class="flex text-primary text-sm leading-4">
                 {{ match.team2 }}
@@ -45,7 +45,7 @@
           </div>
           <div class="flex items-center w-[75px] md:w-[102px] justify-end gap-3 pr-3">
             <div class="flex">
-              <img class="h-7" src="/img/none/tourNoLogo.svg" alt="tourName" />
+              <img class="h-7" src="../assets/none/tourNoLogo.svg" alt="tourName" />
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@
             <div class="grow flex-1 flex justify-end items-end gap-1 md:gap-3 flex-col md:flex-row-reverse md:items-center md:justify-start">
               <div class="flex gap-2 items-center">
                 <a href="#" class="flex h-6 w-6">
-                  <img class="h-6 w-6" src="/img/none/teamNoLogo.svg" alt="teamName" />
+                  <img class="h-6 w-6" src="../assets/none/teamNoLogo.svg" alt="teamName" />
                 </a>
               </div>
               <a href="#" class="flex text-right text-primary text-sm leading-4">
@@ -77,7 +77,7 @@
             </div>
             <div class="flex grow flex-1 content-center md:items-center text-left gap-1 md:gap-3 flex-col md:flex-row">
               <a href="#" class="flex h-6 w-6">
-                <img class="h-6 w-6" src="/img/none/teamNoLogo.svg" alt="teamName" />
+                <img class="h-6 w-6" src="../assets/none/teamNoLogo.svg" alt="teamName" />
               </a>
               <a href="#" class="flex text-primary text-sm leading-4">
                 {{ match.team2 }}
@@ -86,7 +86,7 @@
           </div>
           <div class="flex items-center w-[75px] md:w-[102px] justify-end gap-3 pr-3">
             <div class="flex">
-              <img class="h-7" src="/img/none/tourNoLogo.svg" alt="tourName" />
+              <img class="h-7" src="../assets/none/tourNoLogo.svg" alt="tourName" />
             </div>
           </div>
         </div>
